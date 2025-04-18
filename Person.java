@@ -6,6 +6,7 @@ public class Person {
     private String name;
     private BigDecimal salary;
     private String pesel;
+    private String surname;
 
     public Integer age() {
         return 40;
