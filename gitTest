@@ -1,0 +1,100 @@
+Pytanie: Co to jest Git?
+
+D. System kontroli wersji
+Git jest przykładem Systemu Kontroli Wersji, VCS - Version Control System. Reszta odpowiedzi jest
+
+Pytanie: Który z poniższych programów musisz mieć zainstalowany na swoim Systemie Operacyjnym,
+zanim zainstalujesz Git?
+
+E. Żadne z powyższych
+Git jest samodzielnym narzędziem, jedyne czego potrzebujesz to System Operacyjny. Aby korzystać z Git,
+nie potrzebujesz również mieć dostępu do GitHub, możesz pracować z Gitem tylko lokalnie.
+
+Pytanie: Które z poniżej wymienionych są poprawnymi poziomami konfiguracji w Git?
+Poprawne odpowiedzi: B, D, F
+Komentarz:
+Poprawne poziomy konfiguracji jakie występują w Git to: system, global oraz local.
+
+Pytanie: Które zdanie z poniższych jest prawdziwe?
+Odpowiedzi:
+1. Git automatycznie śledzi zmiany we wszystkich plikach, które zostaną stworzone w working
+directory
+2. Historia zmian Git jest automatycznie usuwana co miesiąc
+3. Git może być stosowany tylko w projektach Java i możemy dzięki niemu śledzić tylko pliki z
+rozszerzeniem .java
+
+4. Git może być stosowany do śledzenia zmian w plikach tekstowych z dowolnym rozszerzeniem
+5. Git może przechowywać dane tylko lokalnie, nie jest możliwa replikacja stanu repozytorium z
+naszego komputera na inne komputery
+Poprawne odpowiedzi: D
+Komentarz:
+Jedyne zdanie z powyższych, które jest prawdziwe to: Git może być stosowany do śledzenia zmian w
+plikach tekstowych z dowolnym rozszerzeniem. Pozostałe zdania nie są zgodne z prawdą.
+
+Pytanie: Który z poniższych plików służy do zdefiniowania plików, których Git ma nie śledzić?
+C. 3. .gitignore
+Poprawne odpowiedzi: C
+Komentarz:
+Plik, w którym konfigurujemy pliki i katalogi, które mają nie być śledzone przez Gita nosi nazwę
+.gitignore.
+
+Pytanie: Która komenda z poniższych doda plik C:/coding/quizexample/src/main/java/pl/zajavka/Cat.java do staging area? Poniższe komendy są wywoływane gdy
+znajdujemy się w kataloguC:/coding/quiz-examp
+4. git add Cat.java    zle
+5. git add src/main/java/pl/zajavka/Cat.java
+6. git add .
+Poprawne odpowiedzi: E, F
+Komentarz:
+Przypomnijmy, że stwierdzenia staging area używa się do określenia miejsca, do którego dodajemy
+zmiany, z których następnie ma zostać stworzony commit. Do dodania pliku do staging area używa się
+komendy git add. Wszystkie odpowiedzi zawierające git commit są nieprawidłowe - nie do tego służy
+komenda commit.
+• git add Cat.java - Ta komenda określa złą lokalizację pliku. Naszym WD jest C:/coding/quiz-example,
+a plik Cat.java znajduje się w lokalizacji C:/coding/quiz-example/src/main/java/pl/zajavka/Cat.java,
+• git add src/main/java/pl/zajavka/Cat.java - Ta komenda jest poprawna,
+• git add . - Ta komenda jest poprawna. Git zaczyna śledzić wszystkie pliki i katalogi, które znajdują się
+w obecnym katalogu.
+
+Pytanie: Która z poniższych komend pozwoli nam na wycofanie wprowadzonych zmian, bez wstecznej
+modyfikacji historii repozytorium?
+C. 3. git reset --hard
+A. git revert
+2. git reset
+3. git reset --hard
+4. git reset --mixed
+5. git reset --soft
+
+Poprawne odpowiedzi: A
+Komentarz:
+Komenda git reset modyfikuje wstecznie historię repozytorium. Jedyną komendą z wymienionych, która
+tego nie robi jest git revert.
+
+Pytanie: Która z poniższych komend spowoduje zapisanie migawki w repozytorium?
+Odpowiedzi:
+1. git add "my first change"
+2. git add -m "my first change"
+3. git commit "my first change"
+4. git commit -m "my first change"
+Poprawne odpowiedzi: D
+Komentarz:
+Jedynie komenda git commit -m "message" spowoduje zapisanie migawki w repozytorium.
+
+Pytanie: Która z poniższych komend spowoduje powstanie nowego brancha?
+Odpowiedzi:
+1. git branch -b new-branch
+B. git branch new-branch
+3. git branch new branch
+4. git -b new-branch
+
+Poprawne odpowiedzi: B
+Komentarz:
+Jedynie komenda git branch new-branch jest poprawna i spowoduje powstanie nowego brancha.
+
+Pytanie: Która z poniższych komend spowoduje przełączenie pomiędzy branchami?
+Odpowiedzi:
+1. git checkout feature-branch
+2. git status feature-branch
+3. git branch new-branch
+4. git switch new-branch
+Poprawne odpowiedzi: A, D
+Z wymienionych komend, do przełączenia brancha służą komendy git checkout oraz git switch.

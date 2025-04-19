@@ -142,4 +142,8 @@ gradle-app.setting
 # Eclipse Core
 .project
 # JDT-specific (Eclipse Java Development Tools)
+<<<<<<< HEAD
 .classpath
+=======
+.classpath
+>>>>>>> fefeede96bb1cf7668d5e649b71009700a961013
