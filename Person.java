@@ -15,4 +15,8 @@ public class Person {
     public String whatIsYourHobby() {
         return "pizza";
     }
+
+    public void hello() {
+        System.out.println("Hello!");
+    }
 }
